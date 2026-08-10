@@ -1,0 +1,36 @@
+print("===================================")
+print("       BASIC AI CHATBOT")
+print("===================================")
+print("Hello! I am your chatbot.")
+print("Type 'bye' to exit the chat.\n")
+
+while True:
+    user_input = input("You: ").lower()
+
+    if user_input == "hello" or user_input == "hi":
+        print("Bot: Hello! Nice to meet you.")
+
+    elif user_input == "how are you":
+        print("Bot: I'm doing great! Thanks for asking.")
+
+    elif user_input == "what is your name":
+        print("Bot: My name is PyBot.")
+
+    elif user_input == "what can you do":
+        print("Bot: I can answer some basic questions and have a simple conversation.")
+
+    elif user_input == "what is python":
+        print("Bot: Python is a popular programming language used for web development, AI, data science, and automation.")
+
+    elif user_input == "who created you":
+        print("Bot: I was created using Python.")
+
+    elif user_input == "thank you" or user_input == "thanks":
+        print("Bot: You're welcome!")
+
+    elif user_input == "bye":
+        print("Bot: Goodbye! Have a great day! 👋")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand that yet.")
